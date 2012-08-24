@@ -1,0 +1,22 @@
+name: EnderTP
+author: Ramirez57
+description: Player-buildable teleport devices using EnderChests.
+main: ramirez57.EnderTP.Main
+version: 0.1_MC1.3.1_R2.0
+commands:
+  endertp:
+    description: EnderTP commands
+    usage: 'endertp reload'
+    aliases: etp
+    permission: EnderTP.reload
+    permission-message: No permission for EnderTP
+permissions:
+  endertp.use.spawn:
+    description: Use EnderSpawn poles.
+    default: true
+  endertp.use.home:
+    description: Use EnderHome poles.
+    default: true
+  endertp.use.base:
+    description: Use EnderBase poles.
+    default: true
